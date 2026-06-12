@@ -1,0 +1,15 @@
+torch
+torchvision
+timm
+scikit-learn
+numpy
+pandas
+pillow
+matplotlib
+pyyaml
+tqdm
+coral-pytorch
+grad-cam<3.0
+opencv-python-headless
+python-pptx
+

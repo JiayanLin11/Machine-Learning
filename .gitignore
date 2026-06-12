@@ -1,0 +1,32 @@
+/figures/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+*.pt
+*.pth
+*.ckpt
+.ipynb_checkpoints/
+
+# Large or obsolete experiment artifacts.
+outputs/checkpoints/
+outputs/archive_old_coord/
+outputs/archive_temp/
+outputs/old_coord_backup/
+
+# Local-only aggregate summaries.
+outputs/all_results.csv
+outputs/all_results.json
+outputs/block6_summary.json
+outputs/summary_block*.csv
+outputs/summary_block*.json
+outputs/summary_other.csv
+outputs/summary_other.json
+scripts/analysis/summarize.py
+scripts/analysis/summarize_block6.py
+
+outputs/extracted/
+outputs/figures/
+scripts/figures/
